@@ -1,0 +1,167 @@
+* {
+
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+
+
+
+}
+
+
+body {
+
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(63, 145, 99, 1) 45%, rgba(0, 212, 255, 1) 100%);
+}
+
+
+h4 {
+
+    color:#0aa6b4;
+}
+
+
+
+.container {
+
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px 20px;
+
+    background-color: #F2F2F2;
+    width: 40%;
+    border-radius: 5px;
+
+
+}
+
+.input-main {
+
+    width: 70%;
+    height: 25px;
+    border: 2px solid #C2C2C2;
+    border-radius: 5px;
+    ;
+}
+
+
+
+.btn-confirm {
+
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 40px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    
+}
+
+
+.btn-trash {
+
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 40px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+
+}
+
+
+
+
+.btn-main {
+
+    background-color: #CCD0D9;
+    width: 70px;
+    height: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+   
+
+}
+
+.btn-main:hover {
+
+    opacity: 0.8;
+
+}
+
+.btn-main:active {
+
+    opacity: 0.5;
+}
+
+
+.complete {
+
+    background-color: #00FF39;
+    text-decoration: line-through;
+
+}
+
+
+#listorder {
+
+    width: 100%;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.newLi {
+
+    background: #D7D9D8;
+    box-shadow: 8px 2px 10px 0px rgba(0,0,0,0.42);
+    border-radius: 5px;
+    padding: 15px 30px;
+    position: relative;
+    margin-top: 20px;
+    
+    
+}
+
+
+.paragraf {
+
+    color: #000000;
+    font-size: 16px;
+}
+
+.fa-trash {
+
+
+    color: #BF2424;
+}
+
+
+.fa-check-double {
+
+    color: #265431;
+
+}
+
+.newLi:hover .btn-trash {
+
+    opacity: 1;
+}
+
+.newLi:hover .btn-confirm {
+
+    opacity: 1;
+}
