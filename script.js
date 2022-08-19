@@ -20,7 +20,7 @@ function processArray() {
         newLi = newLi + `<li  class=" newLi  ${vCurrent.status == true ? 'complete' : ''}">
 <button class="btn-confirm"  onclick="completeItem(${index})" > <i class="fa-solid fa-check-double"></i> </i></button>
 
-<p id="add" class=" paragraf  ${vCurrent.status == true ? 'complete' : ''}">${vCurrent.assignment}</p>
+<p id="add" class=" paragraf  ${vCurrent.status == true ? 'complete'  : ''}">${vCurrent.assignment}</p>
 
 <button class="btn-trash" onclick="deleteIten(${index})"> <i class="fa-solid fa-trash"></i> </button>
 </li>`

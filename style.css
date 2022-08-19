@@ -43,12 +43,8 @@ h4 {
 
 .container-intems {
 
-    width: 50%;
+    width: 60%;
     padding: 20px 10px;
-    
-
-
-   
     
     border-radius: 5px;
     background-color: #C2C2C2;
@@ -131,6 +127,7 @@ h4 {
 
     background-color: #00FF39;
     text-decoration: line-through;
+    width: 100%;
 
 }
 
@@ -150,7 +147,7 @@ h4 {
     border-radius: 5px;
     padding: 15px 30px;
     position: relative;
-    margin-top: 20px;
+    margin: 20px 30px;
     
     
 }
